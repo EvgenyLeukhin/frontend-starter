@@ -1,9 +1,26 @@
 # frontend-starter
 
+## TODO install list
+
+- NextJS ✓
+- Prettier ✓
+- SCSS ✓
+- components collection
+- RTK
+- http-client
+- env-files
+- alert-provider
+- formik + yup
+- Auth + private route
+- Crud operations
+- bundle analyzing
+- gzip
+- Test-stages, deploy-scripts
+
 ## Tech stack
 
-- Frontend lib: [React](https://ru.legacy.reactjs.org/)
-- Builder: [NextJs](https://nextjs.org/)
+- Frontend lib: [React 18v](https://ru.legacy.reactjs.org/)
+- Builder: [NextJs 13v](https://nextjs.org/)
 - Typing: [TypeScript](https://www.typescriptlang.org/)
 - State-managment: [Redux-toolkit](https://redux-toolkit.js.org/)
 - Styles: [SCSS](https://sass-scss.ru/) with modules
@@ -15,7 +32,7 @@
 
 ---
 
-## Install NextJS
+## NextJS
 
 ```bash
 # inside current folder
@@ -33,8 +50,73 @@ npx create-next-app@latest folder-name
 ? Would you like to customize the default import alias? No* / Yes
 ```
 
+## Prettier
+
+`yarn add prettier`
+
+### .prettierrc
+
+```json
+{
+  "endOfLine": "auto",
+  "singleQuote": true,
+  "jsxSingleQuote": true,
+  "arrowParens": "avoid",
+  "semi": true,
+  "useTabs": false,
+  "trailingComma": "all",
+  "tabWidth": 2
+}
+```
+
+### .prettierignore
+
+```
+# Ignore artifacts:
+node_modules
+public
+build
+.next
+.swc
+yarn.lock
+package-lock.json
+```
+
+### .vscode/settings.json + Install VS Code Prettier plugin
+
+```json
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": false,
+  "prettier.singleQuote": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[svg]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "svg.preview.background": "editor"
+}
+```
+
 ---
----
+
+====================================
+
 ---
 
 # NextJS Info
