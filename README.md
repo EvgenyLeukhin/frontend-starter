@@ -59,6 +59,15 @@ npx create-next-app@latest folder-name
 
 `yarn add prettier`
 
+### scripts
+
+Sometimes has error with starting by yarn.
+
+```json
+    "prettier:check": "prettier --check .",
+    "prettier:fix": "prettier --write ."
+```
+
 ### .prettierrc
 
 ```json
