@@ -5,10 +5,11 @@
 - NextJS ✓
 - Prettier ✓
 - SCSS ✓
-- Folder and pages structure
+- Folder and pages structure ✓
 - Components collection
 - RTK
 - http-client
+- services, req/res typing
 - env-files
 - alert-provider
 - formik + yup
