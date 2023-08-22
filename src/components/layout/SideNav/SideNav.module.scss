@@ -1,7 +1,7 @@
 .SideNav {
-  color: inherit;
   position: absolute;
   display: flex;
+  flex-direction: column;
   width: 200px;
   padding: 10px;
   z-index: 2;
@@ -9,4 +9,32 @@
   left: 0;
   bottom: 38px;
   background-color: lightcyan;
+}
+
+.Link {
+  display: inline-flex;
+  width: 90%;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  border: 1px solid transparent;
+  transition: all 230ms;
+  &:hover {
+    border: 1px solid lightblue;
+  }
+  &:last-child {
+    margin-bottom: 0;
+  }
+  &__isActive {
+    cursor: default;
+    pointer-events: none;
+    border: 1px solid lightblue;
+    color: blue;
+  }
 }
