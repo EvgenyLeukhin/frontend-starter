@@ -2,25 +2,42 @@
 
 ## TODO install list
 
+### Build
+
 - NextJS ✓
 - Prettier ✓
 - SCSS ✓
 - Folder and pages structure ✓
+- Layout page wrapper
 - Components collection
-- RTK
+
+### API
+
 - http-client
-- services, req/res typing
 - env-files
+- services, req/res typing
+- filtering
+
+### Redux
+
+- RTK
+- Crud endpoint operations
+
+### Perfomance
+
+- gzip
+- Tests
+- bundle analyzing
+- Express, desktop-app
+
+### Features
+
+- Auth + private route
+- User token saving
 - alert-provider
 - formik + yup
-- Auth + private route
-- Crud operations
-- bundle analyzing
-- gzip
 - Test-stages, deploy-scripts
-- Utils
-- Hooks
-- Tests
+- Utils and hooks
 
 ## Tech stack
 
