@@ -5,7 +5,8 @@
 - NextJS ✓
 - Prettier ✓
 - SCSS ✓
-- components collection
+- Folder and pages structure
+- Components collection
 - RTK
 - http-client
 - env-files
@@ -16,6 +17,9 @@
 - bundle analyzing
 - gzip
 - Test-stages, deploy-scripts
+- Utils
+- Hooks
+- Tests
 
 ## Tech stack
 
