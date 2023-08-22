@@ -52,6 +52,13 @@
 - Code formatter: [Prettier](https://prettier.io/)
 - Test stages: [Github pages](https://pages.github.com/) and [Netlify](https://www.netlify.com/)
 
+## Most wantes
+
+- RTK deepening
+- RTK-query
+- NextJS new 18v features
+- Promises, async actions
+
 ---
 
 ## NextJS
@@ -141,6 +148,48 @@ package-lock.json
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "svg.preview.background": "editor"
+}
+```
+
+---
+
+## Examples
+
+### React function components example with classnames
+
+```tsx
+import cn from 'classnames';
+import styles from './Test.module.scss';
+
+type TProps = {
+  userName: string;
+  isLoading: boolean;
+};
+
+const Test = ({ userName, isLoading }: TProps) => {
+  return (
+    <div
+      className={cn(styles.Test, {
+        [styles.Test__isLoading]: isLoading,
+      })}
+    >
+      Hello, {userName}!
+    </div>
+  );
+};
+
+export default Test;
+```
+
+### Styles file example wit BEM methodology
+
+```scss
+.Test {
+  background-color: rgba(255, 255, 255, 1);
+
+  &__isLoading {
+    background-color: rgba(255, 255, 255, 0.9);
+  }
 }
 ```
 
