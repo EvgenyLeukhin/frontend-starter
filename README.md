@@ -8,8 +8,15 @@
 - Prettier ✓
 - SCSS ✓
 - Folder and pages structure ✓
-- Layout page wrapper
-- Components collection
+- Layout page wrapper ✓
+- Components collection ...
+
+### Redux
+
+- RTK
+- Slices
+- Types
+- Crud endpoint operations
 
 ### API
 
@@ -17,11 +24,6 @@
 - env-files
 - services, req/res typing
 - filtering
-
-### Redux
-
-- RTK
-- Crud endpoint operations
 
 ### Perfomance
 
