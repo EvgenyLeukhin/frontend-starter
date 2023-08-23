@@ -1,12 +1,12 @@
 {
   "/_app": "pages/_app.js",
-  "/_document": "pages/_document.js",
-  "/companies": "pages/companies.html",
-  "/": "pages/index.html",
-  "/login": "pages/login.html",
-  "/index__old": "pages/index__old.html",
-  "/users": "pages/users.html",
-  "/test": "pages/test.html",
   "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/index__old": "pages/index__old.html",
+  "/login": "pages/login.html",
+  "/": "pages/index.html",
+  "/companies": "pages/companies.html",
+  "/test": "pages/test.html",
+  "/users": "pages/users.html",
   "/404": "pages/404.html"
 }
