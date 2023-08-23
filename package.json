@@ -24,7 +24,6 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "next build && gh-pages -d .next",
     "prettier:check": "prettier --check .",
     "prettier:fix": "prettier --write ."
   },
