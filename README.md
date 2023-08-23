@@ -63,7 +63,7 @@
 
 ---
 
-## NextJS
+## Install NextJS
 
 ```bash
 # inside current folder
@@ -80,6 +80,26 @@ npx create-next-app@latest folder-name
 ? Would you like to use App Router (recommended)? No* / Yes
 ? Would you like to customize the default import alias? No* / Yes
 ```
+
+---
+
+## Test stages
+
+### GitHub pages
+
+GitHub pages link: [https://evgenyleukhin.github.io/frontend-starter](https://evgenyleukhin.github.io/frontend-starter)
+
+- GitHub repo --> Settings --> Pages --> Build and deployment --> GitHub Actions --> Choose NextJS --> auto-create `nextjs.yml` file in `.github/workflows`
+- Each commit will be start auto-deploy by GitHub actions
+- Check nodes version in nextjs.yml `node-version: '20'`
+- Check deploys - VS Code plugin **GitHub Actions**
+- Not needed package `gh-pages` anymore
+
+### Netlify
+
+TODO
+
+---
 
 ## Prettier
 
